@@ -162,7 +162,7 @@ namespace MixinApi.Contexts
             switch (field)
             {
                 case ExcludedFields.ProductPrice:
-                    return new List<string> { "price", "compare_at_price" };
+                    return new List<string> { "compare_at_price" };
 
                 case ExcludedFields.ProductDiscount:
                     return new List<string> { "price" };
