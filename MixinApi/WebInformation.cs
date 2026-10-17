@@ -38,8 +38,18 @@ namespace MixinApi
                 {
                     Key = "DefaultCategoryId",
                     DefaultValue = "1",
-                    DisplayName = "شناسه دسته‌بندی پیش‌فرض",
+                    DisplayName = "Mixin Default Category Id",
                     Description = "در هنگام ساخت محصول اگر دسته بندی موجود نباشد این شناسه به عنوان دسته بندی محصول معرفی میشود",
+                    IsRequired = true,
+                    IsProtected = true,
+                    IsReadOnly = false
+                },
+                new WebConfig
+                {
+                    Key = "DelayBetweenRequest",
+                    DefaultValue = "2000",
+                    DisplayName = "Delay Between Request",
+                    Description = "",
                     IsRequired = true,
                     IsProtected = true,
                     IsReadOnly = false
