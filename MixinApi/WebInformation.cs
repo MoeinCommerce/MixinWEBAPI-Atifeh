@@ -12,7 +12,7 @@ namespace MixinApi
     {
         public string Name => "MixinApi";
 
-        public string DisplayName => "افزونه میکسین";
+        public string DisplayName => "افزونه میکسین اختصاصی آفای عطیفه";
 
         public string Description => "This is a dll that stores all Mixin api";
 
